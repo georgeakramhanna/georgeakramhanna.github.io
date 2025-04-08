@@ -1,0 +1,75 @@
+* {
+    font-family: "Alexandria", sans-serif;
+}
+.name {
+    font-family: "Lalezar", system-ui;
+}
+.fixed-header {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: calc(100% - 2rem); 
+    margin-left: 1rem; 
+    margin-right: 1rem; 
+    margin-top: 1rem;
+    z-index: 1000; 
+}
+.container {
+    max-width: 1400px;
+}
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+@media (max-width: 768px) {
+    .profile-section {
+        order: 1;
+    }
+    .content-section {
+        order: 2;
+    }
+}
+.res {
+    width: 40%;
+}
+@media (max-width: 768px) {
+    .res {
+    width: 100%;
+}
+}
+.mr {
+    margin-top: 100px;
+}
+
+.fixed-profile {
+    position: fixed;
+    right: 7px;
+}
+@media (max-width: 768px) {
+    .fixed-profile {
+    position: relative;
+}
+}
+@media (max-width: 768px) {
+    .text-m {
+    margin-top: 20px;
+}
+}
+
+.p-ar {
+    direction: rtl;
+}
+.image-icon {
+    width: 70px;
+    height: 70px;
+}
+.image-icon-2 {
+    width: 70px;
+    height: 70px;
+}
+.image-icon-3 {
+    width: 70px;
+    height: 70px;
+}
